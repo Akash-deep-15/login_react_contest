@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+ 
+}
+
+#userName {
+background-color: black;
+color: white;
+font-size: 20px;
+}
+
+#email {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+#password{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+#ConPassword{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+#btn {
+  height: 30px;
+  width: 100px;
+}
+
+.error {
+  color: red;
+}
+
+.correct {
+  color: green;
 }
