@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Login} from './Login';
-import {register} from './Register';
+import {Login} from './login';
 import React, {useState} from 'react';
 
 function App() {
